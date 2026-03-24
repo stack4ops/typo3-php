@@ -4,15 +4,6 @@ LABEL maintainer="Stefan Schneider <eqsoft4@gmail.com>"
 
 ARG TARGETARCH
 
-ARG HTTP_PROXY
-ARG HTTPS_PROXY
-ARG NO_PROXY
-ARG ALL_PROXY
-ARG http_proxy=$HTTP_PROXY
-ARG https_proxy=$HTTPS_PROXY
-ARG no_proxy=$NO_PROXY
-ARG all_proxy=$ALL_PROXY
-
 USER root
 
 ENV TZ=Europe/Berlin
